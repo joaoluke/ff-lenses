@@ -3,7 +3,7 @@ import Footer from '@/modules/home/components/Footer'
 import Content from '@/modules/home/components/Content'
 import MenuMobile from '@/modules/home/components/MenuMobile'
 
-const FFLentesHome = () => {
+const FFLensesHome = () => {
   return (
     <div>
       <MenuMobile />
@@ -17,4 +17,4 @@ const FFLentesHome = () => {
   )
 }
 
-export default FFLentesHome
+export default FFLensesHome
