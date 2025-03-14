@@ -7,6 +7,7 @@ import js from '@eslint/js'
 import tsParser from '@typescript-eslint/parser'
 import jsxA11Y from 'eslint-plugin-jsx-a11y'
 import reactHooks from 'eslint-plugin-react-hooks'
+import simpleImportSort from 'eslint-plugin-simple-import-sort'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -33,6 +34,7 @@ export default [
     plugins: {
       'react-hooks': fixupPluginRules(reactHooks),
       'jsx-a11y': jsxA11Y,
+      'simple-import-sort': simpleImportSort,
     },
 
     languageOptions: {
@@ -50,6 +52,7 @@ export default [
 
     rules: {
       'react-hooks/rules-of-hooks': 'error',
+      'simple-import-sort/imports': 'error',
     },
   },
 ]
