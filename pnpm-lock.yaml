@@ -136,7 +136,7 @@ importers:
         specifier: ^26.1.0
         version: 26.1.0
       lint-staged:
-        specifier: ^16.0.0
+        specifier: ^16.1.0
         version: 16.1.0
       msw:
         specifier: ^2.8.6
